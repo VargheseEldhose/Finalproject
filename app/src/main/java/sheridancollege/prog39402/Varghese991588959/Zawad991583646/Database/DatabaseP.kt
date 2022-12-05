@@ -11,6 +11,7 @@ abstract class DatabaseP:RoomDatabase(){
 
 
     abstract fun ExerciseDao(): ExerciseDao
+
     abstract fun DietDao(): DietDao
     abstract fun LoadedDietDao(): LoadedDietDao
     abstract fun LoadedExeDao(): LoadedExeDao
